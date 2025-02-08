@@ -5,6 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab Members</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #004466;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .member {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .member:last-child {
+            border-bottom: none;
+        }
+        .member h2 {
+            margin: 5px 0;
+            color: #004466;
+        }
+        .role {
+            font-size: 16px;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,13 +73,41 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Meet Our Team</h2>
-            <p>Our lab team consists of researchers from diverse backgrounds working together on innovative projects.</p>
-        </section>
-    </main>
-    <footer>
+
+    <div class="container">
+        <h1 style="text-align: center;">Our Team</h1>
+
+        <!-- Principal Investigator -->
+        <div class="member">
+            <h2>Dr. Anandan Balakrishnan</h2>
+            <p class="role">Principal Investigator</p>
+        </div>
+
+        <!-- Doctoral Students -->
+        <h2 style="text-align: center; color: #004466;">Doctoral Students</h2>
+
+        <div class="member">
+            <h2>Charles S</h2>
+            <p class="role">Doctoral Student</p>
+        </div>
+
+        <div class="member">
+            <h2>Amulya Vijay</h2>
+            <p class="role">Doctoral Student</p>
+        </div>
+
+        <div class="member">
+            <h2>Sabarinathan D</h2>
+            <p class="role">Doctoral Student</p>
+        </div>
+
+        <div class="member">
+            <h2>Pream S E</h2>
+            <p class="role">Doctoral Student</p>
+        </div>
+    </div>
+
+    <footer style="text-align: center; padding: 20px; background: #004466; color: white;">
         <p>&copy; 2025 Our Lab. All rights reserved.</p>
     </footer>
 </body>
